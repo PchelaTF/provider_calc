@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .content__wrapper {
+        width: 85%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        height: 600px;
+    }
+}
+
+.sliders {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sliders__form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.sliders__form-group label {
+    text-align: center;
+}
+
+.compare {}
+
+@media (max-width: 768px) {
+    .compare {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+.compare>* {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .compare>* {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 15px;
+        height: 550px;
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .compare>* {
+        width: 60px;
+    }
+}
+
+/* .company-1  */
+.company-1 {}
+
+.company-1__name {
+    text-align: center;
+    min-width: 85px
+}
+
+@media (max-width: 414px) {
+    .company-1__name {
+        min-width: none;
+        rotate: 90deg;
+    }
+}
+
+@media (max-width: 768px) {
+    .company-1__name {
+        height: 69px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.company-1__icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.company-1__pricebar {
+    height: 24px;
+    border-left: 1px solid black;
+    background-color: red;
+}
+
+@media (max-width: 768px) {
+    .company-1__pricebar {
+        width: 60%;
+        height: 300px;
+        border-left: none;
+        border-bottom: 1px solid black;
+        background-color: red;
+    }
+}
+
+
+/* .company-2  */
+.company-2 {}
+
+.company-2__wrap {
+    min-width: 85px
+}
+
+@media (max-width: 414px) {
+    .company-2__wrap {
+        min-width: none;
+        rotate: 90deg;
+    }
+}
+
+.company-2__name {
+    text-align: center;
+}
+
+.company-2__form-group {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.company-2__icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: orange;
+}
+
+.company-2__pricebar {
+    height: 24px;
+    border-left: 1px solid black;
+    background-color: orange;
+}
+
+@media (max-width: 768px) {
+    .company-2__pricebar {
+        width: 60%;
+        height: 300px;
+        border-left: none;
+        border-bottom: 1px solid black;
+        background-color: orange;
+    }
+}
+
+/* .company-3 */
+.company-3 {}
+
+.company-3__wrap {
+    min-width: 85px
+}
+
+@media (max-width: 414px) {
+    .company-3__wrap {
+        min-width: none;
+        rotate: 90deg;
+    }
+}
+
+.company-3__name {
+    text-align: center;
+}
+
+.company-3__form-group {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.company-3__icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: purple;
+}
+
+.company-3__pricebar {
+    /* width: 60%; */
+    height: 24px;
+    border-left: 1px solid black;
+    background-color: purple;
+}
+
+@media (max-width: 768px) {
+    .company-3__pricebar {
+        width: 60%;
+        height: 300px;
+        border-left: none;
+        border-bottom: 1px solid black;
+        background-color: purple;
+    }
+}
+
+/* .company-4 */
+.company-4 {}
+
+.company-4__name {
+    text-align: center;
+    min-width: 85px
+}
+
+@media (max-width: 414px) {
+    .company-4__name {
+        min-width: none;
+        rotate: 90deg;
+    }
+}
+
+@media (max-width: 768px) {
+    .company-4__name {
+        height: 69px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.company-4__icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: blue;
+}
+
+.company-4__pricebar {
+    height: 24px;
+    border-left: 1px solid black;
+    background-color: blue;
+}
+
+@media (max-width: 768px) {
+    .company-4__pricebar {
+        width: 60%;
+        height: 300px;
+        border-left: none;
+        border-bottom: 1px solid black;
+        background-color: blue;
+    }
+}

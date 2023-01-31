@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="content__wrapper">
+                <div class="sliders">
+                    <form action="" class="sliders__form-group">
+                        <label id="storage-label" for="storage">Storage: <span></span></label>
+                        <input id="storage" name="storage" type="range" min="0" max="1000" step="2">
+                    </form>
+                    <form action="" class="sliders__form-group">
+                        <label id="transfer-label" for="transfer">Transfer: <span></span></label>
+                        <input id="transfer" name="transfer" type="range" min="0" max="1000" step="2">
+                    </form>
+                </div>
+                <div class="compare">
+                    <div class="company-1">
+                        <p class="company-1__name">backblaze</p>
+                        <div class="company-1__icon"></div>
+                        <div class="company-1__pricebar"></div>
+                        <p class="company-1__price price"></p>
+                    </div>
+                    <div class="company-2">
+                        <div class="company-2__wrap">
+                            <p class="company-2__name">bunny</p>
+                            <form action="" class="company-2__form-group">
+                                <label for="HDD">HDD</label>
+                                <input name="HDD" value="HDD" type="checkbox">
+                                <label for="SSD">SDD</label>
+                                <input name="SSD" value="SSD" type="checkbox" checked>
+                            </form>
+                        </div>
+                        <div class="company-2__icon"></div>
+                        <div class="company-2__pricebar"></div>
+                        <p class="company-2__price price"></p>
+                    </div>
+                    <div class="company-3">
+                        <div class="company-3__wrap">
+                            <p class="company-3__name">scaleway</p>
+                            <form action="" class="company-3__form-group">
+                                <label for="multi">Multi </label>
+                                <input name="multi" value="multi" checked type="checkbox">
+                                <label for="single">Single</label>
+                                <input name="single" value="single" type="checkbox">
+                            </form>
+                        </div>
+                        <div class="company-3__icon"></div>
+                        <div class="company-3__pricebar"></div>
+                        <p class="company-3__price price"></p>
+                    </div>
+                    <div class="company-4">
+                        <p class="company-4__name">vultr</p>
+                        <div class="company-4__icon"></div>
+                        <div class="company-4__pricebar"></div>
+                        <p class="company-4__price price"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
